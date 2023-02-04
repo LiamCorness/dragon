@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dragon Breeder</title>
+  </head>
+  <body>
+    <h1>Dragon Breeder</h1>
+    <br>
+    <h2>Mate Dragons</h2>
+    <form action="{{ url_for('mate') }}" method="post">
+      <select name="dragon1">
+        {% for i, dragon in dragons.items() %}
+            <option value="{{ i }}">{{ dragon.colour }} dragon with {{ dragon.eye_colour }} eyes</option>
+        {% endfor %}
+    </select>
+    <select name="dragon2">
+        {% for i, dragon in dragons.items() %}
+            <option value="{{ i }}">{{ dragon.colour }} dragon with {{ dragon.eye_colour }} eyes</option>
+        {% endfor %}
+    </select>
+
+      <input type="submit" value="Mate Dragons">
+    </form>
+  </body>
+</html>
+        
+
+
+
+
+
+
+

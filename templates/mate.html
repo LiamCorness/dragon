@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mate Result</title>
+  <style>
+    .dragon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mate Result</h1>
+  <div class="dragon">
+    <img src="{{ url_for('static', filename='Dragon images/dragon_image_{}_{}.png'.format(offspring.colour, offspring.eye_colour)) }}" alt="Dragon Image">
+  </div>
+    <p>Colour: {{ offspring.colour }}</p>
+    <p>Eye colour: {{ offspring.eye_colour }}</p>
+  </div>
+</body>
+</html>
