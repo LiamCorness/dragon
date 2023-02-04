@@ -16,7 +16,7 @@ Installation
 5. Run the application using `flask run` command
 
 Features
-The application allows users to select two dragons and mate them to get a new dragon with different color and eye color based on the logic in the Dragon class.
+The application allows users to select two dragons and mate them to get a new dragon with different colour and eye colour based on the logic in the Dragon class.
 
 Known Issues
 - Currently, there is only a limited number of dragons available to mate.
