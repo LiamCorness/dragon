@@ -26,3 +26,15 @@ Future Plans
 - Expand the number of dragons available to mate
 - Make pages more attractive and display all the dragons on the mating page
 - Add more features such as growing dragons from an egg and teaching abilities
+
+images:
+
+![image](https://user-images.githubusercontent.com/122978032/216770957-920dcf3b-8af5-4239-bc41-b261f8cf8307.png)
+
+![image](https://user-images.githubusercontent.com/122978032/216771023-4332d976-0341-4894-a6fd-f375bc226efa.png)
+
+![image](https://user-images.githubusercontent.com/122978032/216771052-0b5107d4-1a12-4e96-bd56-0f1653870ebf.png)
+
+Dragon images made using midjourney
+
+
