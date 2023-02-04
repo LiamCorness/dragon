@@ -1,4 +1,5 @@
-Flask Application
+Flask Application :
+
 A simple web application built using Flask framework, Python, HTML, and CSS. The application allows users to mate different types of dragons, based on their colour and eye color.
 
 Technologies
