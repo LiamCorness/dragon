@@ -27,6 +27,7 @@ Future Plans
 - Expand the number of dragons available to mate
 - Make pages more attractive and display all the dragons on the mating page
 - Add more features such as growing dragons from an egg and teaching abilities
+- Have fun, experiment and learn
 
 images:
 
