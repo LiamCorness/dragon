@@ -19,6 +19,7 @@ The application allows users to select two dragons and mate them to get a new dr
 
 Known Issues
 - Currently, there is only a limited number of dragons available to mate.
+- Dragon images on the offspring page are too big
 
 Future Plans
 - Add the ability for users to add their own dragons
