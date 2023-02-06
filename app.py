@@ -3,11 +3,12 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
+# Create a drafon class with and assign values
 class Dragon:
     def __init__(self, colour, eye_colour):
         self.colour = colour
         self.eye_colour = eye_colour
-
+    # Function to mate 2 dragons 
     def mate(self, other_dragon):
         if self.colour == "red" and other_dragon.colour == "red":
             colour = "red"
@@ -26,17 +27,18 @@ class Dragon:
             eye_colour = random.choice(["red", "blue"])
 
         return Dragon(colour, eye_colour)
-    
+    # Functiom too return a string representation of dragon
     def __str__(self):
         return f"{self.colour} dragon with {self.eye_colour} eyes"
 
+# Create enumerate template 
 @app.template_filter()
 def enumerate(iterable, start=0):
     counter = start
     for element in iterable:
         yield counter, element
         counter += 1
-
+# A dictionary f=of all the potential dragons
 dragons = {
     0: Dragon("blue", "blue"),
     1: Dragon("blue", "red"),
